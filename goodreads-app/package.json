@@ -1,0 +1,54 @@
+{
+  "name": "goodreads-app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "axios": "^0.18.0",
+    "axios-cache-adapter": "^2.3.0",
+    "classnames": "^2.2.6",
+    "materialize-css": "^1.0.0-rc.2",
+    "react": "^16.8.5",
+    "react-dom": "^16.8.5",
+    "react-redux": "^6.0.1",
+    "redux": "^4.0.1",
+    "redux-saga": "^1.0.2",
+    "redux-thunk": "^2.3.0",
+    "throttle-debounce": "^2.1.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "coverage-sample": "npm run test -- --coverage --watch",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "enzyme": "^3.9.0",
+    "enzyme-adapter-react-16": "^1.11.2",
+    "mocha": "^6.0.2",
+    "nyc": "^13.3.0",
+    "react-scripts": "^2.1.8",
+    "react-test-renderer": "^16.8.6",
+    "redux-mock-store": "^1.5.3",
+    "sinon": "^7.3.1"
+  },
+  "jest": {
+    "collectCoverageFrom": [
+      "**/src/**/*.{js,jsx}",
+      "!**/src/index.js",
+      "!**/src/serviceWorker.js",
+      "!**/node_modules/**",
+      "!**/vendor/**"
+    ]
+  }
+}

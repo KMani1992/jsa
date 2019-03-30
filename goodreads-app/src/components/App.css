@@ -1,0 +1,44 @@
+.book-card {
+  border: 0.5px solid lightgray;
+}
+
+.good-read-logo {
+  margin-top: 5px;
+  margin-left: 35px;
+}
+
+.search-box-allign {
+  margin-right: 250px;
+}
+
+.page-spinner {
+  position: fixed;
+  top: 45%;
+  left: 45%;
+  display: block;
+  width: 120px;
+  height: 120px; 
+  z-index: 99;
+}
+
+.loader {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+  background-color: rgba(0, 0, 0, 0.5);    
+  position: fixed;
+  display: block;  
+}
+
+.hide-loader{
+    display: none;
+}
+html, body{
+    min-height: 100%;
+}
+
+.search-result{
+  margin-bottom: 50px;
+}

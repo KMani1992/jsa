@@ -1,0 +1,1 @@
+export const isEmpty = (data) => (!data || data.toString().trim().length === 0) ;
