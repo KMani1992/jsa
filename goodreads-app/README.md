@@ -13,9 +13,9 @@ Please refer [GoodReads Developer](https://www.goodreads.com/api) for API Refere
 Don't worry too much about the aesthetics, should be legible that's it!
 
 
-##Demo Link: https://goodreadsapp.herokuapp.com/
+## Demo Link: https://goodreadsapp.herokuapp.com/
 
-#Highlights
+# Highlights
 1. Implemented the UI using materialize CSS, React JS and Redux JS
 2. Implemented debounce concept in the search help API call
 3. Implemented auto fill search box to make the quick search 
@@ -24,16 +24,16 @@ Don't worry too much about the aesthetics, should be legible that's it!
 6. Stored userstate (search keyword & page #) in the session storage to make state full while refreshing the useragent
 
 
-#steps to run the project
+# Steps to run the project
 1. cd <project directory>
 2. npm install
 3. npm run start
 
-#steps to run unit test
+# Steps to run unit test
 1. npm run test -- --coverage
 2. verify the coverage report under the coverage directory of the project
 
-#This is executed in the below version of node environment
+# This is executed in the below version of node environment
 1. Node V10.13.0
 2. NPM V6.4.1
 

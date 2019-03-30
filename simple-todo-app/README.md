@@ -18,26 +18,26 @@ Screenshot:
 Don't worry too much about the aesthetics, should be legible that's it!
 
 
-##Demo Link: https://kmktodoapp.herokuapp.com/
+## Demo Link: https://kmktodoapp.herokuapp.com/
 
-#Highlights
+# Highlights
 1. Implemented the UI using materialize CSS, React JS and Redux JS
 2. Stored all todos in the local storage using throttle techniquie to make convenient for the user while refreshing / closig the useragent
 3. Implemented todo Add, View, Edit, Complete & Incomplete options in the app
 
 
-#steps to run the project
+# Steps to run the project
 1. cd <project directory>
 2. npm install
 3. npm run start
 
-#steps to run unit test
+# Steps to run unit test
 1. npm run test -- --coverage
 
 * verify the coverage report under the coverage directory of the project
 * npm run test (for only unit test without coverage report)
 
-#This is executed in the below version of node environment
+# This is executed in the below version of node environment
 1. Node V10.13.0
 2. NPM V6.4.1
 

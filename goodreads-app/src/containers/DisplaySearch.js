@@ -21,7 +21,7 @@ class DisplaySearch extends React.Component {
     console.log("set search", e.target.value);
     this.setState({ searchKeyword: e.target.value });
     debounce(
-      300,
+      1000,
       (() => {
         this.autoPopulate();
       })()

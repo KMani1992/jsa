@@ -5,7 +5,7 @@ export default function(params) {
     <div className="navbar-fixed">
       <nav>
         <div className="nav-wrapper grey lighten-5">
-          <a href="#!" className="brand-logo left">
+          <a href="#!" className="brand-logo left hide-on-med-and-down">
             <img
               className="good-read-logo"
               src="images/logo.png"
